@@ -52,8 +52,8 @@ class TimeSequenceGenerator
       n.times do |i|
         reference = reference + min + rand(diff)
         @times << reference
-        @reference_time = @times.last
       end
+      @reference_time = @times.last
     end
   end
 end
